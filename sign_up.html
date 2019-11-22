@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SignUp</title>
+</head>
+<body>
+    <img src="images/logo.png" alt="Logo Here">
+    <h1>MentMe Blog</h1>
+    <a href="index.html">Home</a> |
+    <a href="login.html">About</a>|
+    <a href="faq.html">FAQ</a> |
+    <a href="login.html">Login/Register</a> |
+    <a href="contact.html">Contact</a>
+    <hr>
+    <h2>Sign Up</h2>
+    <hr>
+    <h3>Create an Account</h3>
+    <form action="POST">
+        <fieldset>
+            <legend>Personal Details</legend>
+            <p><label for="PInformation">First Name:</label>
+            <input type="text" name="Name" placeholder="Your Firstname"></p>
+            <p><label for="information">Last Nmae:</label>
+            <input type="text" name="Address" placeholder="Your Lastname"></P>
+            <p><label for="Gender">Gender</label><br>
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female</p>
+            <p><label for="date of birth">Date of Birth</label><br>
+            <input type="date" name="date of birth" value="dobirth"></p>
+            <p>Select your interests</p>
+            <label for="Interest"></label>
+            <ul>
+            <li><input type="checkbox" name="interests" value="Music">Music</li>
+            <li><input type="checkbox" name="interests" value="Comedy">Comedy</li>
+            <li><input type="checkbox" name="interests" value="Showbiz">Showbiz</li>
+            <li><input type="checkbox" name="interests" value="Education">Education</li>
+            </ul>
+            Age Range:
+                <select name="AgeRange" id="ageRange">
+                    <option value="">--Select Age--</option>
+                    <option value="under24">under 24</option>
+                    <option value="25-34">25 to 34</option>
+                    <option value="35-44">35 to 44</option>
+                    <option value="45-60">45 to 60</option>
+                    <option value="Over60">60+</option>
+                </select>
+            </p>
+                Select Favourite Movies<br>
+                <mark>more than one where applicable</mark><br>
+                <select name="Favmovies" id="Favmovies" size="4" multiple>
+                  <optgroup label="Series">
+                    <option value="GameofThrones">Game of Thrones</option>
+                    <option value="MoneyHeist">Money Heist</option>
+                    <option value="BigBangTheory">Big bang Theory</option>
+                  </optgroup>
+                  <optgroup label="parts">
+                    <option value="EBTG">Everything But the Girl</option>
+                    <option value="Depeche">Depeche Mode</option>
+                    <option value="DragonWar">Dragon warrior</option>
+                  </optgroup>
+                </select>
+            </p>
+            <p><label>Select favourite color:</label><br>
+            <input type="color" name="favorite"></p>    
+        </fieldset>
+        <fieldset>
+            <legend>Account Details</legend>
+            <label>Upload profile picture</label><br>
+            <mark>picture should not be more than 100kb</mark><br>
+            <input type="file" name="picture">
+            <p><label for="username">Username:</label>
+            <input type="text" placeholder="Your username"></p>
+            <p><label for="Password">Password:</label>
+            <input type="password" placeholder="Your password"></p>
+            <p><label for="RePassword">Retype password:</label>
+            <input type="password" placeholder="Retype password"></p>
+            <p><label>Rate Us Now(0 to 10)</label><br>
+            <input type="range" name="satisfaction" min="0" max="10" step="1"></p>
+            <p><label for="agree"></label>
+            <input type="checkbox">I agree to your terms and conditions<br>
+            <a href="TandC.html">Click here</a> for terms and conditions</p>
+            <label for="signup"></label>
+            <input type="submit" value="Sign Up">
+            <label for="signup"></label>
+            <input type="reset" value="Clear Data">
+        </fieldset>
+        <fieldset>
+            <legend>Disclaimer</legend>
+            <p>All information provided were given voluntary by the bearer of the above details.</p>
+        </fieldset>
+    </form>
+    <h3><blockquote>Other Links</blockquote></h3>
+    <ul>
+        <li><a href="sitemap.html">Site Map</a></li>
+        <li><a href="Community.html">Community</a></li>
+        <li><a href="Archive.html">Archives(90)</a></li>
+        <li><a href="Contact.html">Contact</a></li>
+    </ul>
+    <footer>
+        <P><small>Copyright &copy; 2019</small></P>
+       <p><small>All rights Reserved</small></p>
+    </footer> 
+</body>
+</html>
